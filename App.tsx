@@ -13,8 +13,11 @@ export default function App() {
 
   return (
     <NativeBaseProvider theme={THEME}>
-        <StatusBar barStyle='light-content' backgroundColor="transparent" translucent />
-        {fontsLoaded ? <SignIn /> : <Loading />}
+         <StatusBar barStyle='light-content' backgroundColor="transparent" translucent />
+{/*         {fontsLoaded ? <SignIn /> : <Loading />}
+          
+ */}    
+      <SignIn />
     </NativeBaseProvider>
   );
 }
